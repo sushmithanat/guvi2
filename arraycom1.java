@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class arraycom
+class arraycom1
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -44,7 +44,7 @@ class arraycom
 				break;
 			}
 		}
-		if(count>k)
+		if(count>=k)
 			System.out.print("yes");
 	}
 }
