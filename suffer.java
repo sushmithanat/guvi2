@@ -45,6 +45,8 @@ class suffer
 			}
 			}
 		}
+		else
+		{
 		for(int i=0;i<n;i++)
 		{
 			if(count==1)
@@ -58,6 +60,7 @@ class suffer
 			System.out.print(" ");
 			count--;
 			}
+		}
 		}
 		
 	}
