@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class matrc
+class cmat
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -16,6 +16,15 @@ class matrc
 		for(int i=0;i<n;i++)
 		a[i]=sc.nextInt();
 		int cnt=0;
+		if(n==1)
+		{
+			if(a[0]==1)
+			cnt=1;
+			else
+			cnt=0;
+		}
+		else
+		{
 		for(int i=0;i<n;i++)
 		{
 			if(i==0)
@@ -30,6 +39,7 @@ class matrc
 			}*/
 			else if(a[i]==1 && a[i-1]==0 && a[i+1]==0)
 			cnt++;
+		}
 		}
 		System.out.print(cnt);
 	}
