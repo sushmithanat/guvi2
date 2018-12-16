@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class red
+class rem1
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -25,6 +25,8 @@ class red
 		for(int i=0;i<j;i++)
 		b[i]=tmp[i];
 		if(j==0 && a.length==2)
+		System.out.print(a[0]);
+		else if(a.length==1)
 		System.out.print(a[0]);
 		else
 		{
