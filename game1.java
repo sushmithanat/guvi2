@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class rps
+class game1
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -19,6 +19,7 @@ class rps
 		System.out.print("S");
 		else if(p1=='R' && p2=='S' || p2=='R' && p1=='S')
 		System.out.print("R");
-		
+		else if(p1=='R' && p2=='R' || p1=='S' && p2=='S' || p1=='P' && p2=='P')
+		System.out.print("D");
 	}
 }
