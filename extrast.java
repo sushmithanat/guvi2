@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class extrass
+class extrast
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -19,6 +19,6 @@ class extrass
 			st += str.charAt(i);
 		}
 		st += str.charAt(str.length()-1);
-		System.out.print(st);
+		System.out.println(st);
 	}
 }
